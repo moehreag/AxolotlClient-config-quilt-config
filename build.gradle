@@ -15,17 +15,6 @@ repositories {
 		name 'TerraformersMC Maven'
 		url 'https://maven.terraformersmc.com/releases/'
 	}
-	exclusiveContent {
-		forRepository {
-			maven {
-				name = "Modrinth"
-				url = "https://api.modrinth.com/maven"
-			}
-		}
-		filter {
-			includeGroup "maven.modrinth"
-		}
-	}
 }
 
 // All the dependencies are declared at gradle/libs.version.toml and referenced with "libs.<id>"
@@ -50,8 +39,6 @@ dependencies {
 	// Quilted Fabric API will automatically pull in the correct QSL version.
 	modImplementation libs.quilted.fabric.api
 	// modImplementation libs.bundles.quilted.fabric.api // If you wish to use Fabric API's deprecated modules, you can replace the above line with this one
-
-	modCompileOnly("maven.modrinth:ok-zoomer:5.0.0-beta.10+1.19.3")
 }
 
 processResources {

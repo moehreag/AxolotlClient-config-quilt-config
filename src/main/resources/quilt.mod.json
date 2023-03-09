@@ -1,0 +1,37 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "io.github.moehreag",
+		"id": "axolotlclientconfig-quilt-configconverter",
+		"version": "${version}",
+		"metadata": {
+			"name": "AxolotlClientConfig Quilt-Config Converter",
+			"description": "Allows the usage of Quilt-Config while getting generated config screens.",
+			"contributors": {
+				"moehreag": "Owner"
+			},
+			"contact": {
+				"sources": "https://github.com/moehreag/axolotlclientconfig-quilt-configconverter"
+			},
+			"icon": "assets/axolotlclientconfig-quilt-configconverter/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"client_init": "io.github.moehreag.AxolotlClientConfig_Quilt_Test"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.18.3-"
+			},
+			{
+				"id": "axolotlclientconfig",
+				"versions": ">=2.0.0"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.19.3"
+			}
+		]
+	}
+}

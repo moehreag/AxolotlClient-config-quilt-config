@@ -15,5 +15,7 @@ public class Example implements ClientModInitializer {
 }
 ```
 
-You may also look at [AxolotlClientConfig_Quilt_Test.java](src/test/java/io/github/moehreag/AxolotlClientConfig_Quilt_Test.java)
-for further usage details (in this case by double-registering OKZoomer's configuration).
+You may also look at [AxolotlClientConfig_Quilt_Test.java](QuiltConfigUIProvider/src/main/java/io/github/moehreag/AxolotlClientConfig_QuiltConfig_UIProvider/AxolotlClientConfig_QuiltConfig_UIProvider.java)
+for further usage details.
+
+

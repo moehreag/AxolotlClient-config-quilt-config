@@ -92,7 +92,3 @@ publishing {
 		// retrieving dependencies.
 	}
 }
-
-runClient {
-	classpath(sourceSets.test.runtimeClasspath)
-}

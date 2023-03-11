@@ -23,7 +23,7 @@ dependencies {
 	modImplementation libs.quilt.loader
 	modImplementation libs.axolotlclientconfig
 	modImplementation libs.axolotlclientconfig.common
-	include modImplementation(project(":"))
+	modImplementation include(project(":QuiltConfigConverter"))
 }
 
 jar {

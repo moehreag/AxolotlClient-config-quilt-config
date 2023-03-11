@@ -17,7 +17,6 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"client_init": "io.github.moehreag.AxolotlClientConfig_Quilt_Test"
 		},
 		"depends": [
 			{

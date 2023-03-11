@@ -13,4 +13,5 @@ pluginManagement {
 	}
 }
 
+include 'QuiltConfigConverter'
 include 'QuiltConfigUIProvider'
